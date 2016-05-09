@@ -1,0 +1,227 @@
+Created by PLY version 3.8 (http://www.dabeaz.com/ply)
+
+Grammar
+
+Rule 0     S' -> start
+Rule 1     start -> LEADINGCELL CELL CELL CELL CELL trash CELL CELL CELL CELL CELL TRAILINGCELL
+Rule 2     trash -> CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL
+
+Terminals, with rules where they appear
+
+CELL                 : 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+LEADINGCELL          : 1
+TRAILINGCELL         : 1
+error                : 
+
+Nonterminals, with rules where they appear
+
+start                : 0
+trash                : 1
+
+Parsing method: LALR
+
+state 0
+
+    (0) S' -> . start
+    (1) start -> . LEADINGCELL CELL CELL CELL CELL trash CELL CELL CELL CELL CELL TRAILINGCELL
+
+    LEADINGCELL     shift and go to state 2
+
+    start                          shift and go to state 1
+
+state 1
+
+    (0) S' -> start .
+
+
+
+state 2
+
+    (1) start -> LEADINGCELL . CELL CELL CELL CELL trash CELL CELL CELL CELL CELL TRAILINGCELL
+
+    CELL            shift and go to state 3
+
+
+state 3
+
+    (1) start -> LEADINGCELL CELL . CELL CELL CELL trash CELL CELL CELL CELL CELL TRAILINGCELL
+
+    CELL            shift and go to state 4
+
+
+state 4
+
+    (1) start -> LEADINGCELL CELL CELL . CELL CELL trash CELL CELL CELL CELL CELL TRAILINGCELL
+
+    CELL            shift and go to state 5
+
+
+state 5
+
+    (1) start -> LEADINGCELL CELL CELL CELL . CELL trash CELL CELL CELL CELL CELL TRAILINGCELL
+
+    CELL            shift and go to state 6
+
+
+state 6
+
+    (1) start -> LEADINGCELL CELL CELL CELL CELL . trash CELL CELL CELL CELL CELL TRAILINGCELL
+    (2) trash -> . CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL
+
+    CELL            shift and go to state 7
+
+    trash                          shift and go to state 8
+
+state 7
+
+    (2) trash -> CELL . CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL
+
+    CELL            shift and go to state 9
+
+
+state 8
+
+    (1) start -> LEADINGCELL CELL CELL CELL CELL trash . CELL CELL CELL CELL CELL TRAILINGCELL
+
+    CELL            shift and go to state 10
+
+
+state 9
+
+    (2) trash -> CELL CELL . CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL
+
+    CELL            shift and go to state 11
+
+
+state 10
+
+    (1) start -> LEADINGCELL CELL CELL CELL CELL trash CELL . CELL CELL CELL CELL TRAILINGCELL
+
+    CELL            shift and go to state 12
+
+
+state 11
+
+    (2) trash -> CELL CELL CELL . CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL
+
+    CELL            shift and go to state 13
+
+
+state 12
+
+    (1) start -> LEADINGCELL CELL CELL CELL CELL trash CELL CELL . CELL CELL CELL TRAILINGCELL
+
+    CELL            shift and go to state 14
+
+
+state 13
+
+    (2) trash -> CELL CELL CELL CELL . CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL
+
+    CELL            shift and go to state 15
+
+
+state 14
+
+    (1) start -> LEADINGCELL CELL CELL CELL CELL trash CELL CELL CELL . CELL CELL TRAILINGCELL
+
+    CELL            shift and go to state 16
+
+
+state 15
+
+    (2) trash -> CELL CELL CELL CELL CELL . CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL
+
+    CELL            shift and go to state 17
+
+
+state 16
+
+    (1) start -> LEADINGCELL CELL CELL CELL CELL trash CELL CELL CELL CELL . CELL TRAILINGCELL
+
+    CELL            shift and go to state 18
+
+
+state 17
+
+    (2) trash -> CELL CELL CELL CELL CELL CELL . CELL CELL CELL CELL CELL CELL CELL CELL CELL
+
+    CELL            shift and go to state 19
+
+
+state 18
+
+    (1) start -> LEADINGCELL CELL CELL CELL CELL trash CELL CELL CELL CELL CELL . TRAILINGCELL
+
+    TRAILINGCELL    shift and go to state 20
+
+
+state 19
+
+    (2) trash -> CELL CELL CELL CELL CELL CELL CELL . CELL CELL CELL CELL CELL CELL CELL CELL
+
+    CELL            shift and go to state 21
+
+
+state 20
+
+    (1) start -> LEADINGCELL CELL CELL CELL CELL trash CELL CELL CELL CELL CELL TRAILINGCELL .
+
+    $end            reduce using rule 1 (start -> LEADINGCELL CELL CELL CELL CELL trash CELL CELL CELL CELL CELL TRAILINGCELL .)
+
+
+state 21
+
+    (2) trash -> CELL CELL CELL CELL CELL CELL CELL CELL . CELL CELL CELL CELL CELL CELL CELL
+
+    CELL            shift and go to state 22
+
+
+state 22
+
+    (2) trash -> CELL CELL CELL CELL CELL CELL CELL CELL CELL . CELL CELL CELL CELL CELL CELL
+
+    CELL            shift and go to state 23
+
+
+state 23
+
+    (2) trash -> CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL . CELL CELL CELL CELL CELL
+
+    CELL            shift and go to state 24
+
+
+state 24
+
+    (2) trash -> CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL . CELL CELL CELL CELL
+
+    CELL            shift and go to state 25
+
+
+state 25
+
+    (2) trash -> CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL . CELL CELL CELL
+
+    CELL            shift and go to state 26
+
+
+state 26
+
+    (2) trash -> CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL . CELL CELL
+
+    CELL            shift and go to state 27
+
+
+state 27
+
+    (2) trash -> CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL . CELL
+
+    CELL            shift and go to state 28
+
+
+state 28
+
+    (2) trash -> CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL .
+
+    CELL            reduce using rule 2 (trash -> CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL CELL .)
+

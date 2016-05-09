@@ -1,0 +1,59 @@
+Classes:
+Computer
+Graphics/Gaming computer
+Super computer
+Program
+
+Parts of computer
+CPU
+GPU
+Motherboard
+RAM
+Hard drive Total memory
+PSU
+
+For program class:
+data:
+data inside closure --> list of specs necessary to run the program
+	Has GPU Boolean (True or False)
+		Checked by if(GPU needed) --> if (computer.GPU == null) --> return False
+									  else --> return True
+	Has X CPUs
+	Has CPU with X Cores and >Y Clock rate [0, X, Y]
+	Has X GB of RAM
+	Has X GB of Hard drive Total Memory
+Functions
+	.info = return [GPU, CPU, RAM, HarddriveMemory]
+	.name = return name
+	MAKE SET AND GET FUNCTIONS FOR EACH PIECE OF DATA
+
+For computer class:
+inside the closure data
+	Name: Name
+	CPU: [[Model, Cores, Clock rate]]
+	Motherboard: Model
+	RAM: GB
+	Hard drive Total Memory: GB
+	Power supply: [Model, Watts]
+Functions
+	MAKE SET AND GET FUNCTIONS FOR EACH PIECE OF DATA
+	.on: checks to see if the computer will turn on (presence of all necessary parts). As a bonus, we can try to check if the PSU is sufficient
+	.get_specs: returns the specs of the computer
+	.get_type: returns the type of computer (normal, graphics/gaming, super) --> This displays the differences between the classes. get_type should display the "override" feature/python equivalent
+	.can_it_run(Program): checks to see if the computer can run a program based on its relavent specs
+				Program.info = [GPU, CPU, RAM, HarddriveMemory]
+				has boolean can_run = True
+				if any of the specs do not match, can_run = False
+				return can_run
+
+For Graphics:
+	Inherits properties of computer
+	requires GPU --> [model, memory]
+Functions
+	.get_type: returns the type of computer (normal, graphics/gaming, super) --> This displays the differences between the classes. get_type should display the "override" feature/python equivalent
+
+For Super:
+	Inherits properties of computer
+	requires multiple CPUs [[Model, Cores, Clock rate],[Model, Cores, Clock rate], etc...]
+Functions
+	.get_type: returns the type of computer (normal, graphics/gaming, super) --> This displays the differences between the classes. get_type should display the "override" feature/python equivalent

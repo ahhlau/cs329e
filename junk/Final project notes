@@ -1,0 +1,30 @@
+Classes:
+Computer
+Graphics/Gaming computer
+Super computer
+
+
+
+Parts of computer
+CPU
+GPU
+Motherboard
+RAM
+Hard drive Total memory
+PSU
+
+
+For computer class:
+inside the closure data
+	name:
+	CPU:
+	Motherboard:
+	RAM:
+	Hard drive Totam Memory:
+	Power supply:
+Functions
+	on: checks to see if the computer will turn on (presence of all necessary parts). As a bonus, we can try to check if the PSU is sufficient
+	get_specs: returns the specs of the computer
+	get_type: returns the type of computer (normal, graphics/gaming, super) --> This displays the differences between the classes. get_type should display the "override" feature/python equivalent
+
+

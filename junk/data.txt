@@ -1,0 +1,23 @@
+Series Name	Period	Frequency	Value	Units
+U.S. Domestic Crude Oil First Purchase Prices with API Gravity 20.0 degrees or less, Annual	2015	A	43.88	Dollars per Barrel
+U.S. Domestic Crude Oil First Purchase Prices with API Gravity 20.0 degrees or less, Annual	2014	A	87.83	Dollars per Barrel
+U.S. Domestic Crude Oil First Purchase Prices with API Gravity 20.0 degrees or less, Annual	2013	A	99.4	Dollars per Barrel
+U.S. Domestic Crude Oil First Purchase Prices with API Gravity 20.0 degrees or less, Annual	2012	A	102.79	Dollars per Barrel
+U.S. Domestic Crude Oil First Purchase Prices with API Gravity 20.0 degrees or less, Annual	2011	A	101.3	Dollars per Barrel
+U.S. Domestic Crude Oil First Purchase Prices with API Gravity 20.0 degrees or less, Annual	2010	A	72.4	Dollars per Barrel
+U.S. Domestic Crude Oil First Purchase Prices with API Gravity 20.0 degrees or less, Annual	2009	A	54.05	Dollars per Barrel
+U.S. Domestic Crude Oil First Purchase Prices with API Gravity 20.0 degrees or less, Annual	2008	A	87.1	Dollars per Barrel
+U.S. Domestic Crude Oil First Purchase Prices with API Gravity 20.0 degrees or less, Annual	2007	A	62.0	Dollars per Barrel
+U.S. Domestic Crude Oil First Purchase Prices with API Gravity 20.0 degrees or less, Annual	2006	A	54.96	Dollars per Barrel
+U.S. Domestic Crude Oil First Purchase Prices with API Gravity 20.0 degrees or less, Annual	2005	A	45.01	Dollars per Barrel
+U.S. Domestic Crude Oil First Purchase Prices with API Gravity 20.0 degrees or less, Annual	2004	A	33.38	Dollars per Barrel
+U.S. Domestic Crude Oil First Purchase Prices with API Gravity 20.0 degrees or less, Annual	2003	A	25.82	Dollars per Barrel
+U.S. Domestic Crude Oil First Purchase Prices with API Gravity 20.0 degrees or less, Annual	2002	A	21.08	Dollars per Barrel
+U.S. Domestic Crude Oil First Purchase Prices with API Gravity 20.0 degrees or less, Annual	2001	A	19.53	Dollars per Barrel
+U.S. Domestic Crude Oil First Purchase Prices with API Gravity 20.0 degrees or less, Annual	2000	A	24.42	Dollars per Barrel
+U.S. Domestic Crude Oil First Purchase Prices with API Gravity 20.0 degrees or less, Annual	1999	A	14.0	Dollars per Barrel
+U.S. Domestic Crude Oil First Purchase Prices with API Gravity 20.0 degrees or less, Annual	1998	A	9.22	Dollars per Barrel
+U.S. Domestic Crude Oil First Purchase Prices with API Gravity 20.0 degrees or less, Annual	1997	A	15.44	Dollars per Barrel
+U.S. Domestic Crude Oil First Purchase Prices with API Gravity 20.0 degrees or less, Annual	1996	A	16.01	Dollars per Barrel
+U.S. Domestic Crude Oil First Purchase Prices with API Gravity 20.0 degrees or less, Annual	1995	A	13.26	Dollars per Barrel
+U.S. Domestic Crude Oil First Purchase Prices with API Gravity 20.0 degrees or less, Annual	1994	A	11.83	Dollars per Barrel
